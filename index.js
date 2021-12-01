@@ -61,16 +61,12 @@ if(fs.existsSync(SESSION_FILE_PATH)) {
 let webhook = "";
 (async () => {
     const tunnel = await localtunnel({ port: config.port, subdomain: config.subdomain });
-  
-    // the assigned public url for your tunnel
-    // i.e. https://abcdefgjhij.localtunnel.me
     tunnel.url;
     webhook = tunnel.url;
     tunnel.on('close', () => {
     console.log(`OOPS! Subdomain Not Supported, Please Change Again!`)
     });
   })();
-// Use the saved values
 const client = new Client({
     puppeteer: {
         headless :true
@@ -80,7 +76,6 @@ const client = new Client({
 client.on(`qr`, function(qr) {
     console.log(qrcode.generate(qr, {small:true}))
 })
-// Save session values to the file upon successful auth
 client.on('authenticated', (session) => {
     sessionData = session;
     fs.writeFile(SESSION_FILE_PATH, JSON.stringify(session), (err) => {
