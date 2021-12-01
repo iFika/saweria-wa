@@ -65,6 +65,3 @@ Give a ⭐️ if this project helped you!
 
 Copyright © 2021 [iFika](https://github.com/iFika).<br />
 This project is [GNU](https://github.com/iFika/saweria-wa/blob/master/LICENSE) licensed.
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
