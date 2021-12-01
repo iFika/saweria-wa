@@ -1,0 +1,31 @@
+{
+  "name": "saweria-wa",
+  "version": "1.2.5",
+  "description": "Saweria Whatsapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iFika/saweria-wa.git"
+  },
+  "keywords": [
+    "Saweria",
+    "Whatsapp"
+  ],
+  "author": "iFika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iFika/saweria-wa/issues"
+  },
+  "homepage": "https://github.com/iFika/saweria-wa#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "localtunnel": "^2.0.2",
+    "node-encoder": "^2.0.4",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.15.2"
+  }
+}
