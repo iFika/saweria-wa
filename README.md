@@ -25,6 +25,12 @@
 npm install
 ```
 
+## Update
+
+```sh
+npm update
+```
+
 ## Usage
 
 ```sh
