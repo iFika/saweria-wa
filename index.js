@@ -93,7 +93,7 @@ client.on('authenticated', (session) => {
 
 client.on(`ready`, function(as) {
     console.log(`Silakan Taruh Di Integration Saweria Di : https://saweria.co/admin/integrations Lalu Pilih Webhook.\n
-URL Webhook : ${webhook}`)
+URL Webhook : ${webhook}/saweria`)
 })
 app.use(bodyParser.json())
 app.get(`/`, function(req,res) {
