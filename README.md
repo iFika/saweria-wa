@@ -35,6 +35,8 @@ npm update
 
 ```sh
 node index
+
+Please Turn Off Firewall And Follow Instruction.
 ```
 
 ## Run tests
