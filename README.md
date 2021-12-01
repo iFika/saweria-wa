@@ -22,19 +22,13 @@
 ## Install
 
 ```sh
-npm install
-```
-
-## Update
-
-```sh
-npm update
+Run install.bat
 ```
 
 ## Usage
 
 ```sh
-node index
+Run start.bat
 
 Please Turn Off Firewall And Follow Instruction.
 ```
