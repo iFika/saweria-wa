@@ -7,12 +7,6 @@
   <a href="https://github.com/iFika/saweria-wa/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="https://github.com/iFika/saweria-wa/blob/master/LICENSE" target="_blank">
-    <img alt="License: GNU" src="https://img.shields.io/github/license/iFika/Saweria Whatsapp" />
-  </a>
-  <a href="https://twitter.com/fikasm" target="_blank">
-    <img alt="Twitter: fikasm" src="https://img.shields.io/twitter/follow/fikasm.svg?style=social" />
-  </a>
 </p>
 
 > Saweria Whatsapp Berfungsi Mengirimkanmu Notifikasi Sawer di Grup WA Kamu.
